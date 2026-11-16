@@ -1,7 +1,6 @@
 const { MongoClient } = require('mongodb');
 
-const url =
-"mongodb+srv://namastedev:VhcsSxR40o9z90t8@namastenode.c5qlg.mongodb.net/";
+const url = "DATABASE_URL";
 
 const client = new MongoClient(url);
 
